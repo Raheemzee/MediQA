@@ -144,7 +144,7 @@
       .then(blob => {
         const url = URL.createObjectURL(blob);
         const audio = new Audio(url);
-        audio.playbackRate = 1.8; // 🔥 faster playback
+        audio.playbackRate = 1.5; // 🔥 faster playback
         audio.onended = () => {
           isSpeaking = false;
           if (btn) btn.disabled = false;
