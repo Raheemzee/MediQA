@@ -1,0 +1,9 @@
+Flask
+pandas
+scikit-learn
+gTTS
+pydub
+ffmpeg-python
+faster-whisper==1.2.0
+soundfile
+gunicorn
